@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="kk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NUR VULCANIZATION — Тауарлар</title>
+
+    <link rel="stylesheet" href="products.css">
+    <script src="products.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="header-container">
+
+        <a href="products.html" class="logo">
+            <img src="NUR.png" alt="NUR">
+        </a>
+
+        <nav class="navigation">
+
+            <a href="#products" class="active">
+                Тауарлар
+            </a>
+
+            <a href="#categories">
+                Категориялар
+            </a>
+
+            <a href="#services">
+                Қызметтер
+            </a>
+
+            <a href="#about">
+                Біз туралы
+            </a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button class="cart-button" id="cartButton">
+                🛒
+                <span>Себет</span>
+                <b id="cartCount">0</b>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-label">
+                NUR VULCANIZATION
+            </p>
+
+            <h1>
+                Вулканизацияға<br>
+                арналған тауарлар
+            </h1>
+
+            <p class="hero-text">
+                Сапалы құралдар, материалдар және автокөлік
+                дөңгелегін жөндеуге арналған қажетті тауарлар.
+            </p>
+
+            <a href="#products" class="hero-button">
+                Тауарларды көру
+            </a>
+
+        </div>
+
+        <div class="hero-wheel">
+            🛞
+        </div>
+
+    </section>
+
+
+    <!-- ================= SEARCH & CATEGORIES ================= -->
+
+    <section class="shop-tools" id="categories">
+
+        <div class="search-box">
+
+            <span>🔎</span>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Тауарды іздеу..."
+            >
+
+        </div>
+
+
+        <div class="categories">
+
+            <button
+                class="category active"
+                data-category="all">
+                Барлығы
+            </button>
+
+            <button
+                class="category"
+                data-category="patch">
+                Жамау
+            </button>
+
+            <button
+                class="category"
+                data-category="tool">
+                Құралдар
+            </button>
+
+            <button
+                class="category"
+                data-category="chemical">
+                Химия
+            </button>
+
+            <button
+                class="category"
+                data-category="accessory">
+                Аксессуарлар
+            </button>
+
+        </div>
+
+
+        <!-- SORT -->
+
+        <div class="sort-box">
+
+            <label for="sortSelect">
+                Сұрыптау:
+            </label>
+
+            <select id="sortSelect">
+
+                <option value="default">
+                    Әдепкі
+                </option>
+
+                <option value="cheap">
+                    Бағасы: арзан → қымбат
+                </option>
+
+                <option value="expensive">
+                    Бағасы: қымбат → арзан
+                </option>
+
+                <option value="stock">
+                    Қоймадағы саны
+                </option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section
+        class="products-section"
+        id="products">
+
+        <div class="section-heading">
+
+            <div>
+
+                <p class="small-title">
+                    КАТАЛОГ
+                </p>
+
+                <h2>
+                    Тауарлар
+                </h2>
+
+            </div>
+
+            <p id="productResult">
+                30 тауар
+            </p>
+
+        </div>
+
+
+        <div
+            class="products-grid"
+            id="productsGrid">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section
+        class="services-section"
+        id="services">
+
+        <div class="section-heading">
+
+            <div>
+
+                <p class="small-title">
+                    NUR VULCANIZATION
+                </p>
+
+                <h2>
+                    Вулканизация қызметтері
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🛞
+                </div>
+
+                <h3>
+                    Шина жөндеу
+                </h3>
+
+                <p>
+                    Тесілген және зақымдалған шиналарды
+                    кәсіби жөндеу.
+                </p>
+
+                <strong>
+                    1 500 ₸ бастап
+                </strong>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🔧
+                </div>
+
+                <h3>
+                    Дөңгелек монтажы
+                </h3>
+
+                <p>
+                    Шинаны шешу, орнату және
+                    монтаждау қызметі.
+                </p>
+
+                <strong>
+                    2 000 ₸ бастап
+                </strong>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ⚙️
+                </div>
+
+                <h3>
+                    Балансировка
+                </h3>
+
+                <p>
+                    Дөңгелектерді балансировка жасау
+                    қызметі.
+                </p>
+
+                <strong>
+                    3 000 ₸ бастап
+                </strong>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    💨
+                </div>
+
+                <h3>
+                    Шина қысымын тексеру
+                </h3>
+
+                <p>
+                    Дөңгелек қысымын тексеру және
+                    қажетті деңгейге келтіру.
+                </p>
+
+                <strong>
+                    1 000 ₸ бастап
+                </strong>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section
+        class="about"
+        id="about">
+
+        <div>
+
+            <p class="small-title">
+                NUR VULCANIZATION
+            </p>
+
+            <h2>
+                Көлігіңізге қажетті<br>
+                барлық құрал бір жерде.
+            </h2>
+
+        </div>
+
+        <p>
+            Біз вулканизация шеберханаларына және
+            автокөлік иелеріне қажетті құралдар мен
+            материалдарды ұсынамыз.
+        </p>
+
+    </section>
+
+</main>
+
+
+<!-- ================= PRODUCT MODAL ================= -->
+
+<div
+    class="product-modal-overlay"
+    id="productModalOverlay">
+
+    <div class="product-modal">
+
+        <button
+            class="modal-close"
+            id="modalClose">
+            ×
+        </button>
+
+
+        <div class="modal-image">
+
+            <img
+                id="modalImage"
+                src=""
+                alt="">
+
+        </div>
+
+
+        <div class="modal-info">
+
+            <p
+                class="modal-category"
+                id="modalCategory">
+            </p>
+
+
+            <h2 id="modalName">
+            </h2>
+
+
+            <div
+                class="modal-price"
+                id="modalPrice">
+            </div>
+
+
+            <div
+                class="modal-stock"
+                id="modalStock">
+            </div>
+
+
+            <p
+                class="modal-description"
+                id="modalDescription">
+            </p>
+
+
+            <div class="modal-actions">
+
+                <button
+                    class="modal-cart-button"
+                    id="modalCartButton">
+                    🛒 Себетке қосу
+                </button>
+
+                <button
+                    class="favorite-modal"
+                    id="favoriteModal">
+                    ♡
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= CART ================= -->
+
+<div
+    class="cart-overlay"
+    id="cartOverlay">
+</div>
+
+
+<aside
+    class="cart-panel"
+    id="cartPanel">
+
+    <div class="cart-header">
+
+        <h2>
+            Себет
+        </h2>
+
+        <button id="closeCart">
+            ×
+        </button>
+
+    </div>
+
+
+    <div
+        class="cart-items"
+        id="cartItems">
+
+        <div class="empty-cart">
+
+            <div>
+                🛒
+            </div>
+
+            <p>
+                Себет бос
+            </p>
+
+            <span>
+                Тауарларды қосыңыз
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="total">
+
+            <span>
+                Жалпы:
+            </span>
+
+            <strong id="cartTotal">
+                0 ₸
+            </strong>
+
+        </div>
+
+
+        <button
+            class="checkout-button"
+            id="checkoutButton">
+
+            📱 WhatsApp арқылы тапсырыс
+
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= TOAST ================= -->
+
+<div
+    class="toast"
+    id="toast">
+
+    Тауар себетке қосылды!
+
+</div>
+
+
+</body>
+</html>

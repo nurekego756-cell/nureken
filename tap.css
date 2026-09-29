@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #2c5032;
+  line-height: 1.6;
+}
+
+.site-header {
+  background-color: #2c502f;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #bdc3c7;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+#counter {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2eb929;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 0 6px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #29b930;
+  color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0fff4b;
+}
+
+#resetBtn {
+  background-color: #e74c3c;
+}
+
+#resetBtn:hover {
+  background-color: #c0392b;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:"Segoe UI",Arial,sans-serif;background-color:#f5f6fa;color:#2c3e50;line-height:1.6}.site-header{background-color:#2c3e50;color:#ffffff;padding:40px 20px;text-align:center}.site-header h1{font-size:2.2rem;margin-bottom:10px}.subtitle{font-size:1rem;color:#bdc3c7}.content{max-width:600px;margin:40px auto;padding:0 20px}.card{background:#ffffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);padding:30px;text-align:center}.card h2{margin-bottom:20px}#counter{font-size:3rem;font-weight:bold;color:#2980b9;margin-bottom:20px}button{font-size:1rem;padding:10px 20px;margin:0 6px;border:none;border-radius:6px;cursor:pointer;background-color:#2980b9;color:#ffffff;transition:background-color 0.2s ease}button:hover{background-color:#1f6690}#resetBtn{background-color:#e74c3c}#resetBtn:hover{background-color:#c0392b}.site-footer{text-align:center;padding:20px;color:#7f8c8d;font-size:0.9rem}
